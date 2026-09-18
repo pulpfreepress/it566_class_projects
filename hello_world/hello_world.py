@@ -5,7 +5,7 @@ if __debug__:
     print(f'Debug enabled...')
 
 def say_hi():
-    print('Hi!')
+    print('Hi! Hi! Hi!')
     print(f'Module Name: {__name__}')
 
 def print_message(message: str = "Hello, World!")->None:
