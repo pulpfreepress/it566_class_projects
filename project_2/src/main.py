@@ -1,7 +1,10 @@
 """ Main Entry Point """
 
+from ui.cli_user_interface import CliUserInterface
+
 def main():
-    print(f'{"Hello, World!"}')
+   cli_ui = CliUserInterface()
+   cli_ui.print_menu()
 
 
 if __name__ == "__main__":
